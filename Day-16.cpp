@@ -1,15 +1,18 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-
-int main(){
+int main()
+{
     int64_t n;
     string S;
     cin >> S;
-    try {
+    try
+    {
         n = stoi(S);
         cout << n;
-    } catch (...) {
+    }
+    catch (...)
+    {
         cout << "Bad String";
     }
     return 0;
